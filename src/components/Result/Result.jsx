@@ -1,0 +1,17 @@
+import "./Result.css";
+
+export default function Result({ rate }) {
+  return (
+    <section className="resultSection">
+      <div className="imageDiv">
+        <img src="./images/illustration-thank-you.svg" alt="thank you" />
+      </div>
+      <p className="selected">You selected {rate} out of 5</p>
+      <h1>Thank you!</h1>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+    </section>
+  );
+}
